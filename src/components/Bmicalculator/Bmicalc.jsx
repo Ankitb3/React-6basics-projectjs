@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <main>
-      <h1 className="mainh1">Project 7: BMI CALCULATOR</h1>
+      <h1 className="mainh1">Project 6: BMI CALCULATOR</h1>
       <div className="input-section">
         <p className="slider-output">Weight: {weight} kg</p>
         <input
