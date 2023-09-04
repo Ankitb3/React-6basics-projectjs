@@ -7,17 +7,19 @@ import Quoutesgenerator from "./components/Quotesgenerator/Quoutesgenerator";
 import Shoopinglist from "./components/Shoppinglist/Shoopinglist";
 import Videoplayer from "./components/Videoplayer/Videoplayer";
 
-
 const App = () => {
   return (
     <>
-      <h1 >Reactjs Basic Projectjs</h1>
-      <ImageSlider />
-      <Faqproject />
-      <Quoutesgenerator />
-      <Shoopinglist/>
-      <Videoplayer/>
-      <Bmicalc/>
+      <h1>Reactjs Basic Projectjs</h1>
+      <div style={{ display: "flex", gap: "100px", flexDirection: "column" }}>
+        {" "}
+        <ImageSlider />
+        <Faqproject />
+        <Quoutesgenerator />
+        <Shoopinglist />
+        <Videoplayer />
+        <Bmicalc />
+      </div>
     </>
   );
 };
