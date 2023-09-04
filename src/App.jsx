@@ -1,5 +1,6 @@
 // import { useState } from "react";
 
+import Bmicalc from "./components/Bmicalculator/Bmicalc";
 import Faqproject from "./components/Faqproject/Faqproject";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import Quoutesgenerator from "./components/Quotesgenerator/Quoutesgenerator";
@@ -16,6 +17,7 @@ const App = () => {
       <Quoutesgenerator />
       <Shoopinglist/>
       <Videoplayer/>
+      <Bmicalc/>
     </>
   );
 };
