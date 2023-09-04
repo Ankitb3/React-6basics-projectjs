@@ -3,6 +3,7 @@
 import Faqproject from "./components/Faqproject/Faqproject";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import Quoutesgenerator from "./components/Quotesgenerator/Quoutesgenerator";
+import Shoopinglist from "./components/Shoppinglist/Shoopinglist";
 
 // const App = () => {
 //   const colors = ["red", "blue", "green", "purple"];
@@ -40,10 +41,11 @@ import Quoutesgenerator from "./components/Quotesgenerator/Quoutesgenerator";
 const App = () => {
   return (
     <>
-      <h1>Reactjs Basic Projectjs</h1>
+      <h1 >Reactjs Basic Projectjs</h1>
       <ImageSlider />
       <Faqproject />
       <Quoutesgenerator />
+      <Shoopinglist/>
     </>
   );
 };
